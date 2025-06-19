@@ -1,5 +1,5 @@
 import React from "react";
-import servicess from "../Js/Servicess";
+import servicess from "../Json/Servicess";
 
 const Services = () => {
   return (
