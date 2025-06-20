@@ -1,7 +1,7 @@
 import React from "react";
 import homeImg from "../assets/homeimg2.png";
 import Button from "./Button";
-import herosection from "../Js/Herosection";
+import herosection from "../Json/Herosection";
 
 const Herosection = () => {
   return (
@@ -18,7 +18,7 @@ const Herosection = () => {
             {herosection.title3}
           </h1>
           <p className="text-lg text-balance  tracking-tight  m-20">{herosection.description}</p>
-          <Button/>
+          <Button>{herosection.herosectionButton}</Button>
           <div className="flex gap-20 ms-20 mt-20">
             <h2 className="text-4xl font-bold">
               {herosection.Number1}<span className="text-blue-400 font-bold">{herosection.sign}</span>
