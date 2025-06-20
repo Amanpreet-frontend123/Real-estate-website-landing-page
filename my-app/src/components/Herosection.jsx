@@ -18,7 +18,7 @@ const Herosection = () => {
             {herosection.title3}
           </h1>
           <p className="text-lg text-balance  tracking-tight  m-20">{herosection.description}</p>
-          <Button>{herosection.herosectionButton}</Button>
+          <Button className="h-14 bg-linear-to-r from-cyan-500 to-blue-500 text-white ms-20 w-50">{herosection.herosectionButton}</Button>
           <div className="flex gap-20 ms-20 mt-20">
             <h2 className="text-4xl font-bold">
               {herosection.Number1}<span className="text-blue-400 font-bold">{herosection.sign}</span>

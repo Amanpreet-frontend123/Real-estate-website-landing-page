@@ -6,6 +6,7 @@ import Logo from "./components/Logo.jsx";
 import Services from "./components/Services.jsx";
 import About from "../src/components/About.jsx";
 import Team from '../src/components/Team.jsx';
+import Story from "./components/Story.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <About />
       <Team/>
+      <Story/>
     </>
   );
 }
