@@ -9,7 +9,7 @@ import Team from "../src/components/Team.jsx";
 import Story from "./components/Story.jsx";
 import Article from "./components/Article.jsx";
 import Project from "./components/Project.jsx";
-import Slider from "./components/Slider.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
       <Team />
       <Story />
       <Article />
-      <Project/>
-      <Slider/>
+      <Project />
+      <Footer />
     </>
   );
 }

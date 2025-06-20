@@ -4,7 +4,7 @@ import slider from "../Json/Slider";
 const Slider = () => {
   return (
     <>
-      <div className="flex bg-black w-[1064px] h-[566px]">
+      <div className=" flex bg-black w-[1064px] h-[566px] ]">
         <div>
           <img src={slider.img} />
           <div className="absolute w-[263px] h-[171px] bg-white">
