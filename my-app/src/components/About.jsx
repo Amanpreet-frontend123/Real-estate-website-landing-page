@@ -1,5 +1,5 @@
-import about from "../Js/About";
-import aboutCardData from "../Js/AboutCardData";
+import about from "../Json/About";
+import aboutCardData from "../Json/AboutCardData";
 import Card from "./Card";
 
 const About = () => {
