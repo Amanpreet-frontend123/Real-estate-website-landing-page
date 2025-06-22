@@ -7,7 +7,7 @@ const Footer = () => {
     <>
    
      <SliderComponent/>
-      <div className=" ps-50 flex bg-linear-to-r from-[#222222] to-[#474747]   pt-100  ">
+      <div className=" ps-50 flex bg-linear-to-r from-[#222222] to-[#474747] h-[769px] w-[1440px]  pt-100  ">
        
         <div className="">
           <h3 className="text-white font-[600px] text-[16px] p-5">
@@ -22,15 +22,15 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="text-white gap-50 ps-50">
-          <h3 className="font-[700px] text-[18px] ">{footer.heading2}</h3>
+        <div className="text-white gap-50 ps-[60px]">
+          <h3 className="font-[700px] text-[18px]  ">{footer.heading2}</h3>
           {footer.heading2Data.map((item) => (
             <div>
               <p className="font-[400px] mt-5 text-[16px]">{item.title}</p>
             </div>
           ))}
         </div>
-        <div className="text-white ps-50 w-[165px] h-[262px]">
+        <div className="text-white  w-[165px] h-[262px] ps-[80px]">
           <h3 className="font-[700px] text-[18px]"> {footer.heading3}</h3>
           {footer.heading3Data.map((item) => (
             <p className="font-[400px] mt-5 text-[16px]" key={item.id}>
