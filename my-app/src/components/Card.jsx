@@ -7,11 +7,11 @@ const Card = ({img,title,desc,page}) => {
     :  {width:"64px", height:"64px" }
   return (
 <>
-<div className='container p-10'>
+<div className=''>
   
-    <img className='bg-blue-500' src={img} style={imageStyle}/>
+    <img className='bg-blue-500 gap-[48px]' src={img} style={imageStyle}/>
     <h2 className='font-bold max-w-80 mt-[21px] font-[600px] text-[16px] '>{title}</h2>
-    <p className='text-gray-500 max-w-100 mt-[25px] leading-[55px] text-balance'>{desc}</p>
+    <p className='text-gray-500  mt-[25px] leading-[40px]  w-[318px] h-[287px]'>{desc}</p>
 </div>
 </>
   )
