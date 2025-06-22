@@ -1,13 +1,28 @@
-const project={
-    title:"Our collection best project",
-    data:[
-    {id:1,url:"../src/assets/Project1.jpg",title:"Project1",desc:"description1"},
-    {id:2,url:"../src/assets/Project2.jpg",title:"Project2",desc:"description2"},
-    {id:3,url:"../src/assets/Project3.jpg",title:"Project3",desc:"description3"},
-    {id:4,url:"../src/assets/Project4.jpg",title:"Project4",desc:"description4"},
-],
-signImg:"../src/assets/Arrow.png",
-data1:"data1",
-desc1:"desc1"
-}
+const project = {
+    title: "Our collection best project",
+    data: [
+        {
+            url: "../src/assets/Project1.jpg",
+            name: "Project 1",
+            desc: " description 1 "
+        },
+        {
+            url: "../src/assets/Project2.jpg",
+            name: "Project 2",
+            desc: "description 2"
+        },
+        {
+            url: "../src/assets/Project3.jpg",
+            name: "Project 3",
+            desc: "description 3"
+        },
+        {
+            url: "../src/assets/Project4.jpg",
+            name: "Project 4",
+            desc: "description 4"
+        }
+    ]
+};
+
 export default project;
+//signImg:"../src/assets/Arrow.png",
