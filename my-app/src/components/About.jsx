@@ -1,4 +1,3 @@
-
 import about from "../Js/About";
 import aboutCardData from "../Js/AboutCardData";
 import Card from "./Card";
@@ -20,6 +19,7 @@ const About = () => {
               img={item.img}
               title={item.title}
               desc={item.desc}
+              page="about"
             />
           ))}
         </div>

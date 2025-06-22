@@ -17,7 +17,7 @@ const Article = () => {
             img={item.img}
             title={item.title}
             desc={item.desc}
-             variant="article"
+             page="article"
           />
         ))}
       </div>
