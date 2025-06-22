@@ -1,12 +1,14 @@
 import React from "react";
 import footer from "../Json/Footer";
-import Slider from "./Slider";
+import SliderComponent from "./Slider";
 
 const Footer = () => {
   return (
     <>
-      <div className="flex h-14 bg-linear-to-r from-[#222222] to-[#474747] h-[769px] p-50 pt-100 tracking-wider ">
-        <Slider />
+   
+     <SliderComponent/>
+      <div className=" ps-50 flex bg-linear-to-r from-[#222222] to-[#474747]   pt-100  ">
+       
         <div className="">
           <h3 className="text-white font-[600px] text-[16px] p-5">
             {footer.heading}
@@ -37,6 +39,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
+      
     </>
   );
 };
