@@ -20,6 +20,7 @@ const About = () => {
               img={item.img}
               title={item.title}
               desc={item.desc}
+              page="about"
             />
           ))}
         </div>
