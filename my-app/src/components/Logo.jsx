@@ -5,7 +5,7 @@ const Logo = () => {
 
   return (
     <>
-    <div className='container flex justify-evenly m-20 ms-5 max-w-screen gap-20 -[922px] h-[120px] '>
+    <div className='container flex ms-[120px] mt-[96px] mb-[169px] max-w-screen gap-[96px]  '>
 {images.map((image)=>(< img key={image.id} src={image.url} className='h-[45px] w-[163px]'/>))}
     </div>
     </>
