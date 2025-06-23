@@ -4,19 +4,19 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between bg-black text-white">
-        <div className="items-start ms-20 mt-10">
+        <div className="items-start  ms-[120px] mt-[48px]">
           <h4 className="text-[18px]">General</h4>
           <h1 className="text-[24px] text-blue-400">Project</h1>
         </div>
-        <div className="me-10 mt-10">
-          <ul className="flex items-end gap-15 font-semibold">
-            <li className="hover:text-blue-400">Home</li>
-            <li className="hover:text-blue-400">Services</li>
-            <li className="hover:text-blue-400">Find a team</li>
-            <li className="hover:text-blue-400">About us</li>
-            <li className="hover:text-blue-400">Articles</li>
-            <li className="hover:text-blue-400">Portfolio</li>
-            <li className="hover:text-blue-400">Contact us</li>
+        <div className="me-[224px] mt-10 ">
+          <ul className="font-[700px] text-[18px]  flex items-end gap-[150px] font-semibold text-gray-400 ">
+            <li className="hover:text-white">Home</li>
+            <li className="hover:text-white">Services</li>
+            <li className="hover:text-white">Find a team</li>
+            <li className="hover:text-white">About us</li>
+            <li className="hover:text-white">Articles</li>
+            <li className="hover:text-white">Portfolio</li>
+            <li className="hover:text-white">Contact us</li>
           </ul>
         </div>
       </div>
