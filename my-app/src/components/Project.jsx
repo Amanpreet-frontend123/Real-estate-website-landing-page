@@ -3,10 +3,10 @@ import project from "../Json/Project";
 
 const Project = () => {
   return (
-    <div className="container mx-auto py-16 px-4 pb-120">
-      <h1 className="text-start ms-35 max-w-80 leading-[62px] text-[46px] font-[600px] mb-10">{project.title}</h1>
+    <div className="container mx-auto py-16 px-4 pb-120 ">
+      <h1 className="text-start ms-[120px] me-50 max-w-80 leading-[62px] text-[46px] font-[600px] mb-10">{project.title}</h1>
 
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center ms-[119px] gap-[30px] w-[1202px] h-[478px]">
         {project.data.map((item, index) => (
           <div
             key={index}
