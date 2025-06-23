@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Card = ({img,title,desc}) => {
+const Card = ({img,title,desc,imgClassname}) => {
+  
   return (
 <>
 <div className='container p-10'>

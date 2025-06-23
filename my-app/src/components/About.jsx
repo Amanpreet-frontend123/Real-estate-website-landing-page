@@ -1,6 +1,6 @@
-import React from "react";
-import about from "../Json/About";
-import aboutCardData from "../Json/AboutCardData";
+
+import about from "../Js/About";
+import aboutCardData from "../Js/AboutCardData";
 import Card from "./Card";
 
 const About = () => {
@@ -14,9 +14,9 @@ const About = () => {
           </p>
         </div>
         <div className="flex justify-between">
-          {aboutCardData.map((item) => (
+          {aboutCardData?.map((item) => (
             <Card
-              key={item.id}
+              key={item?.id}
               img={item.img}
               title={item.title}
               desc={item.desc}
