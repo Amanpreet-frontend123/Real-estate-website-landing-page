@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="container mx-auto px-4 flex justify-between bg-black text-white">
+      <div className="flex justify-between bg-black text-white">
         <div className="items-start ms-20 mt-10">
           <h4 className="text-[18px]">General</h4>
           <h1 className="text-[24px] text-blue-400">Project</h1>
