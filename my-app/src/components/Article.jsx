@@ -1,12 +1,18 @@
 import React from "react";
 import article from "../Json/Article";
-import Card from '../components/Card';
+import Card from "../components/Card";
 
 const Article = () => {
 
 
   return (
     <>
+    <div className=" container mx-auto ms-[120px] mb-[95px]">
+      <h1 className=" text-[46px] font-[600px] mb-12 ">
+        {article.title}
+      </h1>
+
+      <div className=" flex container gap-[48px]">
       <div className="container">
         <h1 className="text-[46px] font-[600px] ms-60">{article.title}</h1>
         <div className="flex container ms-50 mt-[38px]">
@@ -16,13 +22,16 @@ const Article = () => {
             img={item.img}
             title={item.title}
             desc={item.desc}
-            page="article"
+             page="article"
           />
         ))}
       </div>
-      </div>
+    </div>
     </>
   );
 };
 
 export default Article;
+
+
+//grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
