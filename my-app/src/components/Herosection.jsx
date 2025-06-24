@@ -6,7 +6,7 @@ import herosection from "../Json/Herosection";
 const Herosection = () => {
   return (
     <>
-      <div className="flex justify-between bg-linear-to-r from-[#222222] to-[#474747] h-[850px] text-white ">
+      <div className="ps-[120px] flex justify-between bg-linear-to-r from-[#222222] to-[#474747] h-[850px] text-white ">
         <div className=" container">
           <div className="font-[500px] ms-[120px] mt-[75px]">
             <h1 className="text-[64px] ">{herosection.title1}</h1>
