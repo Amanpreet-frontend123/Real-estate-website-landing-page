@@ -18,7 +18,7 @@ const Team = () => {
 <h1 className='text-[46px] font-[600px] mt-[120px] max-w-150'>{team.title}</h1>
 <p className='max-w-110 text-justify leading-[35px] text-[18px] text-gray-400'>{team.desc}</p>
 <div className='flex mt-5'>
-<button className=" h-14 bg-[#0A72AD] text-white  w-50 ">{team.teamBtn}</button>
+<button className="cursor-pointer h-14 bg-[#0A72AD] text-white  w-50 ">{team.teamBtn}</button>
 <h3 className=' p-5  text-black'>{team. footertext}</h3>
 <img src={team.sign} className='h-[16px] w-[16px] m-5'/>
 </div>
