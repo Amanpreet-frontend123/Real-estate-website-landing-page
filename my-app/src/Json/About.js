@@ -12,6 +12,8 @@ const about={
         {id:6,logotitl:"competitive price"},
         {id:7,logotitl:"On Time"},
         {id:8,logotitl:"Best Materials"},
-    ]
+    ],
+    RecImg:"../src/assets/Rectangle.png",
+    circleImg:"../src/assets/Ellipse 1.png "
 }
 export default about;
