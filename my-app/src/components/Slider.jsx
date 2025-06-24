@@ -20,7 +20,7 @@ const SliderComponent = () => {
   };
 
   return (
-    <div className="absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] w-[1064px] -mt-90  ms-[188px] me-[188px]  md:px-16">
+    <div className=" absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] w-[1064px] -mt-90  ms-[188px] me-[188px]  md:px-16">
       <div className="">
         <Slider ref={sliderRef} {...settings}>
           {slider.data.map((item, index) => (

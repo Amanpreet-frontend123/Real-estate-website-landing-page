@@ -5,7 +5,7 @@ import SliderComponent from "./Slider";
 const Footer = () => {
   return (
     <>
-   
+   <div className="container">
      <SliderComponent/>
       <div className=" ps-50 flex bg-linear-to-r from-[#222222] to-[#474747] h-[769px] w-[1440px]  pt-100  ">
        
@@ -39,7 +39,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      
+      </div>
     </>
   );
 };
