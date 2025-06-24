@@ -13,9 +13,6 @@ const Article = () => {
       </h1>
 
       <div className=" flex container gap-[48px]">
-      <div className="container">
-        <h1 className="text-[46px] font-[600px] ms-60">{article.title}</h1>
-        <div className="flex container ms-50 mt-[38px]">
         {article.data.map((item) => (
           <Card 
             key={item.id}
@@ -26,8 +23,6 @@ const Article = () => {
           />
         ))}
       </div>
-    </div>
-    </div>
     </div>
     </>
   );
