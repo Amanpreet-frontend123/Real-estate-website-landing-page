@@ -7,7 +7,7 @@ const Footer = () => {
     <>
    <div className="container">
      <SliderComponent/>
-      <div className=" ps-50 flex bg-linear-to-r from-[#222222] to-[#474747] h-[769px] w-[1440px]  pt-100  ">
+      <div className=" ps-50 flex bg-linear-to-r from-[#222222] to-[#474747] h-[769px]   pt-100  ">
        
         <div className="">
           <h3 className="text-white font-[600px] text-[16px] p-5">
