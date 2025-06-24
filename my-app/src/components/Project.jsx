@@ -4,7 +4,7 @@ import project from "../Json/Project";
 const Project = () => {
   return (
     <div className="container ms-[120px] mb-[500px]">
-      <h1 className="text-start  max-w-80 leading-[62px] text-[46px] font-[600px] mb-10">
+      <h1 className="text-start  max-w-80 leading-[62px] text-[46px] font-[600] mb-10">
         {project.title}
       </h1>
 
