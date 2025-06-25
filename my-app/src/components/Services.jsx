@@ -5,10 +5,11 @@ import Card from './Card';
 const Services = () => {
   return (
     <>
-      <div className="container ms-[120px] ">
+    <div className="bg-[#F6F6F6CC] pt-[80px]">
+      <div className="container ms-[120px] w-[1610px] h-[926px] me-[130px] ">
         <div className="flex">
-          <h1 className=" text-[46px]  max-w-100 ">{servicess.title}</h1>
-          <p className=" ms-[321px] max-w-110 text-gray-500 leading-10 ">
+          <h1 className=" text-[46px] font-[600px] max-w-100 ">{servicess.title}</h1>
+          <p className="ms-[321px] text-[18px] font-[500px] max-w-140  text-[#C4C4C4] leading-10 ">
             {servicess.description}
           </p>
         </div>
@@ -23,6 +24,7 @@ const Services = () => {
           />
         ))}
         </div>
+      </div>
       </div>
     </>
   );
