@@ -50,11 +50,11 @@ const Herosection = () => {
             </div>
           </div>
         </div>
-        <div className="-ms-50">
+        <div className="-ms-100">
           <img
             src={homeImg}
             alt=""
-            className=" w-[298px] md:w-[498px] h-[200px] lg:w-[698px] h-[987px] -mt-[187px] scale-x-[-1] "
+            className=" w-[498px] h-[200px] lg:w-[698px] h-[987px] -mt-[187px] scale-x-[-1] "
           />
           <div className="absolute -mt-29  -ms-12  p-10   gap-10 h-[166px] w-[745px] bg-gradient-to-r from-[#399FD8] via-[#0775B4] to-[#003756]  flex ">
             <div>
