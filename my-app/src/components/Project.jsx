@@ -3,8 +3,8 @@ import project from "../Json/Project";
 
 const Project = () => {
   return (
-    <div className="container ms-[120px] mb-[500px]">
-      <h1 className="text-start  max-w-100 leading-[62px] text-[46px] font-[600] mb-10">
+    <div className="ms-[200px] sm:container sm:ms-[360px] mb-[500px]">
+      <h1 className=" max-w-200 text-[28px] font-[600] mb-10 leading-[50px] sm:max-w-100 sm:leading-[62px] sm:text-[46px] sm:font-[600] sm:mb-10">
         {project.title}
       </h1>
 
