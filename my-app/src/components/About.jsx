@@ -22,7 +22,7 @@ const About = () => {
                 <img src={about.circleImg} className="absolute m-4 h-[64px] w-[64px] "/>
                 <img
                   src={item.img}
-                  className="absolute mt-[30px] ms-[30px] ms-[15px]  "
+                  className="absolute mt-[28px] ms-[30px] ms-[15px]  "
                 />
               </div>
               <h1 className="mt-[36px] font-bold font-[600] text-[24px]">{item.title}</h1>
