@@ -13,6 +13,7 @@ const Article = () => {
             <Card
               key={item.id}
               img={item.img}
+              date={item.date}
               title={item.title}
               desc={item.desc}
               page="article"
