@@ -11,7 +11,7 @@ const Team = () => {
 <div className=' absolute ms-100 -mt-100 bg-linear-to-r from-[#474747] to-[#222222] text-white place-items-center h-[294px] w-[312px]'>
   <img src={team.person.img} className=' mt-[33px] h-[100px] w-[100px] rounded-full'/>  
   <h2 className='mt-[28px]'>{team.person.title}</h2>
-  <p className='mt-[13px] me-[30px] ms-[30px] max-w-60 text-justify pt-2 font-[400px] text-[14px] '>{team.person.desc}</p>
+  <p className='mt-[13px] me-[30px] ms-[30px] max-w-60 text-justify pt-2 font-[400] text-[14px] '>{team.person.desc}</p>
 </div>
 </div>
 <div className='relative ms-[250px] w-[493px] h-[408px]'>
