@@ -5,9 +5,9 @@ import SliderComponent from "./Slider";
 const Footer = () => {
   return (
     <>
-      <div className="bg-linear-to-r from-[#222222] to-[#474747]  ">
+      <div className="-ps-100 h-[769px] w-[2000px] bg-linear-to-r from-[#222222] to-[#474747]   sm:w-full bg-linear-to-r from-[#222222] to-[#474747]">
         <SliderComponent />
-        <div className="container   ps-50 flex h-[769px] w-[1440px]">
+        <div className="container  -ps-100 sm:ps-50 flex h-[769px] w-[1440px]  sm:h-[769px] sm:w-[1440px]">
           <div className="pt-100">
             <h3 className="text-white font-[600] text-[16px] p-5">
               {footer.heading}

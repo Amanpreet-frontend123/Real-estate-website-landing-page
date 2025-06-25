@@ -20,20 +20,20 @@ const SliderComponent = () => {
 
   return (
     <div className="container">
-      <div className=" absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] w-[1064px] -mt-90  ms-[80px]   md:px-16">
+      <div className="absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] w-[1064px] -mt-90 -ms-[100px] sm:ms-[80px]   md:px-16">
         <div className="">
           <Slider ref={sliderRef} {...settings}>
             {slider.data.map((item, index) => (
               <div
                 key={index}
-                className="-ms-[50px] flex flex-col md:flex-row "
+                className="ms-[10px] sm:-ms-[50px] flex flex-col md:flex-row "
               >
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-[269px] h-[344px] object-cover ms-[59px] mt-[65px]"
+                  className="w-[200px] h-[344px] sm:w-[269px] h-[344px] object-cover ms-[59px] mt-[65px]"
                 />
-                <div className="sm:bg-white text-black p-6  relative -mt-25 ms-[197px] w-[263px] h-[171px] ]">
+                <div className="bg-white sm:bg-white text-black p-6  relative -mt-25 ms-[197px] w-[263px] h-[171px] ]">
                   <div className="absolute -top-11 left-6 w-[62px] h-[62px] ms-[85px] rounded-full bg-white text-blue-500 flex items-center justify-center text-lg font-bold">
                     <img src={slider.commaImg} />
                   </div>
@@ -49,13 +49,13 @@ const SliderComponent = () => {
           </Slider>
         </div>
         <div className="">
-          <h2 className=" text-[36px] font-[600] pt-20 ms-[] leading-[50px] max-w-120 md:text-4xl  mb-4">
+          <h2 className="text-[36px] font-[600] pt-20 ms-[] leading-[50px] max-w-120 md:text-4xl  mb-4">
             {slider.title}
           </h2>
-          <p className="text-[#C4C4C4] text-[18px] font-[500px] mt-[44px] mb-8 text-justify leading-[50px] max-w-xl">
+          <p className="-ms-[10px] max-w-110 leading-[20px] sm:text-[#C4C4C4] text-[18px] font-[500px] mt-[44px] mb-8 text-justify leading-[50px] max-w-110">
             {slider.desc}
           </p>
-          <div className="flex ms-[320px] mt-20 gap-5">
+          <div className="sm:flex ms-[320px] mt-10 gap-5">
             <div className="h-[57px] w-[57px] hover:bg-[#0A72AD]">
               <img
                 src={slider.arrowLeft}
