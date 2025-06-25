@@ -33,7 +33,7 @@ const SliderComponent = () => {
                   alt={item.name}
                   className="w-[269px] h-[344px] object-cover ms-[59px] mt-[65px]"
                 />
-                <div className="bg-white text-black p-6  relative -mt-25 ms-[197px] w-[263px] h-[171px] ]">
+                <div className="sm:bg-white text-black p-6  relative -mt-25 ms-[197px] w-[263px] h-[171px] ]">
                   <div className="absolute -top-11 left-6 w-[62px] h-[62px] ms-[85px] rounded-full bg-white text-blue-500 flex items-center justify-center text-lg font-bold">
                     <img src={slider.commaImg} />
                   </div>
