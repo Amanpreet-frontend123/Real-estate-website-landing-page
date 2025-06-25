@@ -21,6 +21,7 @@ const Services = () => {
             title={item.imgtitle}
             desc={item.imgdesc}
              page="article"
+             titleSize="ser"
           />
         ))}
         </div>
