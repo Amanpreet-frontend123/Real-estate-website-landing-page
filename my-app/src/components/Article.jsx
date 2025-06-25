@@ -6,7 +6,7 @@ const Article = () => {
   return (
     <>
       <div className=" container mx-auto ms-[120px] mb-[95px]">
-        <h1 className=" text-[46px] font-[600px] mb-12 ">{article.title}</h1>
+        <h1 className=" text-[46px] font-[600] mb-12 ">{article.title}</h1>
 
         <div className=" flex container gap-[48px]">
           {article.data.map((item) => (

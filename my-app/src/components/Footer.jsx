@@ -10,7 +10,7 @@ const Footer = () => {
       <div className=" ps-50 flex bg-linear-to-r from-[#222222] to-[#474747] h-[769px]   pt-100  ">
        
         <div className="">
-          <h3 className="text-white font-[600px] text-[16px] p-5">
+          <h3 className="text-white font-[600] text-[16px] p-5">
             {footer.heading}
           </h3>
           <p className="text-white max-w-150 text-[16px] font-[400px] p-5">
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-white gap-50 ps-[60px]">
-          <h3 className="font-[700px] text-[18px]  ">{footer.heading2}</h3>
+          <h3 className="font-[700] text-[18px]  ">{footer.heading2}</h3>
           {footer.heading2Data.map((item) => (
             <div>
               <p className="font-[400px] mt-5 text-[16px]">{item.title}</p>
@@ -31,7 +31,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="text-white  w-[165px] h-[262px] ps-[80px]">
-          <h3 className="font-[700px] text-[18px]"> {footer.heading3}</h3>
+          <h3 className="font-[700] text-[18px]"> {footer.heading3}</h3>
           {footer.heading3Data.map((item) => (
             <p className="font-[400px] mt-5 text-[16px]" key={item.id}>
               {item.title}

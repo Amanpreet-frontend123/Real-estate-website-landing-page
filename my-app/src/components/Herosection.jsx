@@ -17,33 +17,33 @@ const Herosection = () => {
             </p>
             <Button>{herosection.herosectionButton}</Button>
             <div className="relative flex gap-[50px] max-w-50 w-[381px] h-[113px] leading-[25px] mt-[43px]">
-              <h2 className="text-[36px] font-[700px]">
+              <h2 className="text-[36px] font-[700]">
                 {herosection.Number1}
-                <span className="text-[#2387C0] text-[36px] font-[700px] ">
+                <span className="text-[#2387C0] text-[36px] font-[700] ">
                   {herosection.sign}
                 </span>
                 <br />
-                <span className="text-[#C4C4C4] text-[18px] font-[600px] mt-10">
+                <span className="text-[#C4C4C4] text-[18px] font-[600] mt-10">
                   {herosection.text1}
                 </span>
               </h2>
-              <h2 className="text-[36px] font-[700px]">
+              <h2 className="text-[36px] font-[700]">
                 {herosection.Number2}
-                <span className="text-[#2387C0] text-[36px] font-[700px]">
+                <span className="text-[#2387C0] text-[36px] font-[700]">
                   {herosection.sign}
                 </span>
                 <br />
-                <span className="text-[#C4C4C4] text-[18px] font-[600px]">
+                <span className="text-[#C4C4C4] text-[18px] font-[600]">
                   {herosection.text2}
                 </span>
               </h2>
-              <h2 className="text-[36px] font-[700px]">
+              <h2 className="text-[36px] font-[700]">
                 {herosection.Number3}
-                <span className="text-[#2387C0] text-[36px] font-[700px]">
+                <span className="text-[#2387C0] text-[36px] font-[700]">
                   {herosection.sign}
                 </span>
                 <br />
-                <span className="text-[#C4C4C4] text-[18px] font-[600px]">
+                <span className="text-[#C4C4C4] text-[18px] font-[600]">
                   {herosection.text3}
                 </span>
               </h2>
@@ -54,16 +54,16 @@ const Herosection = () => {
           <img
             src={homeImg}
             alt=""
-            className="w-[298px] md:w-[498px] lg:w-[698px] h-[987px] -mt-[187px]  "
+            className="w-[298px] md:w-[498px] h-[200px] lg:w-[698px] h-[987px] -mt-[187px]  "
           />
-          <div className="absolute -mt-29  -ms-20  p-10   gap-10 h-[166px] w-[745px] bg-gradient-to-r from-[#399FD8] via-[#0775B4] to-[#003756]  flex ">
+          <div className="relative -mt-29  -ms-20  p-10   gap-10 h-[166px] w-[745px] bg-gradient-to-r from-[#399FD8] via-[#0775B4] to-[#003756]  flex ">
             <div>
               <h2 className="text-[24px] font-[500px] leading-[50px]">
                 {herosection.imgdivdecs1}
               </h2>
             </div>
             <div>
-              <h2 className="text-[36px] font-[700px] leading-[50px]">
+              <h2 className="text-[36px] font-[700] leading-[50px]">
                 {herosection.imgdivdecs2}
               </h2>
             </div>

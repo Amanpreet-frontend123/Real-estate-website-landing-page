@@ -28,7 +28,7 @@ const SliderComponent = () => {
               <img src={item.image} alt={item.name} className="w-[269px] h-[344px] object-cover ms-[59px] mt-[65px]" />
               <div className="bg-white text-black p-6  relative -mt-25 ms-[197px] w-[263px] h-[171px] ]">
                 <div className="absolute -top-11 left-6 w-[62px] h-[62px] ms-[85px] rounded-full bg-white text-blue-500 flex items-center justify-center text-lg font-bold"><img src={slider.commaImg} /></div>
-                <h3 className="text-[22px] font-[600px] mt-[13px] text-center">{item.name}</h3>
+                <h3 className="text-[22px] font-[600] mt-[13px] text-center">{item.name}</h3>
                 <p className="text-[13px] font-[400px] mt-[7px] text-justify text-[#939393]">{item.text}</p>
               </div>
             </div>
@@ -36,7 +36,7 @@ const SliderComponent = () => {
         </Slider>
       </div>
       <div className="">
-        <h2 className=" text-[36px] font-[600px] pt-20 ms-[] leading-[50px] max-w-120 md:text-4xl  mb-4">{slider.title}</h2>
+        <h2 className=" text-[36px] font-[600] pt-20 ms-[] leading-[50px] max-w-120 md:text-4xl  mb-4">{slider.title}</h2>
         <p className="text-[#C4C4C4] text-[18px] font-[500px] mt-[44px] mb-8 text-justify leading-[50px] max-w-xl">{slider.desc}</p>
         <div className="flex justify-center gap-[51px]  mt-20 ms-[340px] ">
           <img

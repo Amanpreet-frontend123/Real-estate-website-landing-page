@@ -6,7 +6,7 @@ const Card = ({img,title,desc,page,titleSize}) => {
     ?  {width:"368px" ,height:"287px"  } 
     :  {width:"64px", height:"64px" }
 
-const textStyle=titleSize==="art"?{className:"font-[600px] text-[16px]"}:{className:"font-[600px] text-[24px]"}
+const textStyle=titleSize==="art"?{className:"font-[600] text-[16px]"}:{className:"font-[600] text-[24px]"}
     
   return (
 <>
