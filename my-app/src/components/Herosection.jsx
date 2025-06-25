@@ -6,53 +6,68 @@ import herosection from "../Json/Herosection";
 const Herosection = () => {
   return (
     <>
-      <div className="container mx-auto px-4 bg-black text-white tracking-tight w-[2071px] h-[976px] flex justify-between">
-        <div className="container">
-          <h1 className="text-[64px] leading-[100%] tracking-tight  ms-20 m-10">
-            {herosection.title1}
-            </h1>
-            <h1 className="text-[64px] leading-[100%] tracking-tight ms-20 m-10">
-            {herosection.title2}
-          </h1>
-          <h1 className="text-[64px] leading-[100%] tracking-tight ms-20 m-10">
-            {herosection.title3}
-          </h1>
-          <p className="text-lg text-balance  tracking-tight  m-20">{herosection.description}</p>
-          <Button className="h-14 bg-linear-to-r from-cyan-500 to-blue-500 text-white ms-20 w-50">{herosection.herosectionButton}</Button>
-          <div className="flex gap-20 ms-20 mt-20">
-            <h2 className="text-4xl font-bold">
-              {herosection.Number1}<span className="text-blue-400 font-bold">{herosection.sign}</span>
+      <div className="flex justify-between bg-linear-to-r from-[#222222] to-[#474747] h-[850px] text-white ">
+        <div className="ms-[120px] font-[500px] mt-[75px]">
+          <h1 className="text-[64px] ">{herosection.title1}</h1>
+          <h1 className="text-[64px]    ">{herosection.title2}</h1>
+          <h1 className="text-[64px]    ">{herosection.title3}</h1>
+          <p className="text-[#C4C4C4] text-[18px] font-[500px] leading-[50px] max-w-150 mt-[24px]">
+            {herosection.description}
+          </p>
+          <Button>{herosection.herosectionButton}</Button>
+          <div className="relative flex gap-[50px] max-w-50 w-[381px] h-[113px] leading-[25px] mt-[43px]">
+            <h2 className="text-[36px] font-[700px]">
+              {herosection.Number1}
+              <span className="text-[#2387C0] text-[36px] font-[700px] ">
+                {herosection.sign}
+              </span>
               <br />
-              <span className="font-light text-lg">{herosection.text1}</span>
+              <span className="text-[#C4C4C4] text-[18px] font-[600px] mt-10">
+                {herosection.text1}
+              </span>
             </h2>
-            <h2 className="text-4xl font-bold">
-             {herosection.Number2} <span className="text-blue-400 font-bold">{herosection.sign}</span>
+            <h2 className="text-[36px] font-[700px]">
+              {herosection.Number2}
+              <span className="text-[#2387C0] text-[36px] font-[700px]">
+                {herosection.sign}
+              </span>
               <br />
-              <span className="font-light text-lg">{herosection.text2}</span>
+              <span className="text-[#C4C4C4] text-[18px] font-[600px]">
+                {herosection.text2}
+              </span>
             </h2>
-            <h2 className="text-4xl font-bold">
-              {herosection.Number3}<span className="text-blue-400 font-bold">{herosection.sign}</span>
+            <h2 className="text-[36px] font-[700px]">
+              {herosection.Number3}
+              <span className="text-[#2387C0] text-[36px] font-[700px]">
+                {herosection.sign}
+              </span>
               <br />
-              <span className="font-light text-lg">{herosection.text3}</span>
+              <span className="text-[#C4C4C4] text-[18px] font-[600px]">
+                {herosection.text3}
+              </span>
             </h2>
           </div>
         </div>
 
-        <div className="container" >
-          <img src={homeImg} alt="" className="w-[298px] md:w-[498px] lg:w-[698px] h-[987px] -mt-50" />
-          <div className="absolute -m-30  p-10   gap-10 h-[144px] w-[745px]  bg-linear-to-r from-cyan-500 to-blue-500 flex justify-evenly">
+        <div className="">
+          <img
+            src={homeImg}
+            alt=""
+            className="w-[298px] md:w-[498px] lg:w-[698px] h-[987px] -mt-[187px]  "
+          />
+          <div className="absolute -mt-29  -ms-12  p-10   gap-10 h-[166px] w-[745px] bg-gradient-to-r from-[#399FD8] via-[#0775B4] to-[#003756]  flex ">
             <div>
-              <h2 className="text-4xl">
+              <h2 className="text-[24px] font-[500px] leading-[50px]">
                 {herosection.imgdivdecs1}
               </h2>
             </div>
             <div>
-              <h2 className="text-4xl ">
-               {herosection.imgdivdecs2}
+              <h2 className="text-[36px] font-[700px] leading-[50px]">
+                {herosection.imgdivdecs2}
               </h2>
             </div>
             <div>
-              <p className="text-balance">
+              <p className=" max-w-200 leading-[40px] text-[14px] font-[400px]">
                 {herosection.imgdivdecs3}
               </p>
             </div>

@@ -1,9 +1,12 @@
 import React from 'react'
 
 const Button = ({children}) => {
+
+
+    
     return (
         <>
-            <button className='h-14 bg-linear-to-r from-cyan-500 to-blue-500 text-white  w-50'>
+            <button className=' mt-[62px]  h-[64px] w-[196px] bg-linear-to-r from-[#60BBEE] to-[#0A72AD] text-white  w-50'>
                 {children}
             </button>
         </>
