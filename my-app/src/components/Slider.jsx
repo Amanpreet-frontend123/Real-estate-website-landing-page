@@ -20,7 +20,7 @@ const SliderComponent = () => {
   };
 
   return (
-    <div className=" absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] w-[1064px] -mt-90  ms-[188px] me-[188px]  md:px-16">
+    <div className=" absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] w-[1064px] -mt-90  ms-[400px]   md:px-16">
       <div className="">
         <Slider ref={sliderRef} {...settings}>
           {slider.data.map((item, index) => (
@@ -29,7 +29,7 @@ const SliderComponent = () => {
               <div className="bg-white text-black p-6  relative -mt-25 ms-[197px] w-[263px] h-[171px] ]">
                 <div className="absolute -top-11 left-6 w-[62px] h-[62px] ms-[85px] rounded-full bg-white text-blue-500 flex items-center justify-center text-lg font-bold"><img src={slider.commaImg} /></div>
                 <h3 className="text-[22px] font-[600] mt-[13px] text-center">{item.name}</h3>
-                <p className="text-[13px] font-[400px] mt-[7px] text-justify text-[#939393]">{item.text}</p>
+                <p className="text-[13px] font-[400] mt-[7px] text-justify text-[#939393]">{item.text}</p>
               </div>
             </div>
           ))}
