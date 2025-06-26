@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Herosection />
       <Logo />
-      {/* <Services /> */}
+      <Services />
       {/* <About /> */}
       {/* <Team /> */}
       {/* <Story /> */}
