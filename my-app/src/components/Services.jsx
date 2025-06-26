@@ -6,9 +6,10 @@ const Services = () => {
   return (
     <>
     <div className="bg-[#F6F6F6CC] pt-[80px]">
-      <div className="container ms-[120px] w-[1610px] h-[926px] me-[130px] ">
+      <div className="container">
+      <div className="w-full h-[926px] me-[130px] ">
         <div className="flex">
-          <h1 className=" text-[46px] font-[600] max-w-100 ">{servicess.title}</h1>
+          <h1 className="ms-[50px] text-[46px] font-[600] max-w-100 ">{servicess.title}</h1>
           <p className="ms-[321px] text-[18px] font-[500px] max-w-140  text-[#C4C4C4] leading-10 ">
             {servicess.description}
           </p>
@@ -25,6 +26,7 @@ const Services = () => {
           />
         ))}
         </div>
+      </div>
       </div>
       </div>
     </>
