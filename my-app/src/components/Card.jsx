@@ -10,7 +10,7 @@ const textStyle=titleSize==="art"?{className:"font-[600] text-[28px]"}:{classNam
     
   return (
 <>
-<div className='-mb-10 -ms-10 '>
+<div className=' -mb-10 -ms-1'>
   
     <img className="ms-[48px] me-[50px]" src={img} style={imageStyle} />
     <div className='flex'>
