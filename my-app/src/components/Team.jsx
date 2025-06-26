@@ -8,7 +8,7 @@ const Team = () => {
     <div className='container'>
     <div className=' -ms-[10px] column-reverse columns-2 flex -ms-[80px] sm:ms-[40px] mt-[174px] mb-[147px]'>
     <div >
-<img src={team.img} className='ms-[300px] h-[540px] w-[1000px] sm:h-[540px] sm:w-[504px]'/>
+<img src={team.img} className=' h-[540px] w-[504px] sm:h-[540px] sm:w-[504px] '/>
 <div className='absolute ms-70 sm:ms-70 -mt-100 bg-linear-to-r from-[#474747] to-[#222222] text-white place-items-center h-[294px] w-[312px]'>
   <img src={team.person.img} className=' mt-[33px] h-[100px] w-[100px] rounded-full'/>  
   <h2 className='mt-[28px]'>{team.person.title}</h2>
