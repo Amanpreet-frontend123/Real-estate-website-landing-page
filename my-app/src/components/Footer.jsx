@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
             ))}
           </div>
-          <div className="text-white  w-[165px] h-[262px] ps-[80px] pt-100">
+          <div className="text-white  max-w-[165px] w-full h-[262px] ps-[80px] pt-100">
             <h3 className="font-[700] text-[18px]"> {footer.heading3}</h3>
             {footer.heading3Data.map((item) => (
               <p className="font-[400] mt-5 text-[16px]" key={item.id}>
