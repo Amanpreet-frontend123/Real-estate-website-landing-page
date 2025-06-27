@@ -16,14 +16,14 @@ function App() {
     <>
       <Navbar />
       <Herosection />
-      <Logo />
-      <Services />
-      <About />
-      <Team />
-      <Story />
-      <Article />
-      <Project />
-      <Footer />
+      {/* <Logo /> */}
+      {/* <Services /> */}
+      {/* <About /> */}
+      {/* <Team /> */}
+      {/* <Story /> */}
+      {/* <Article /> */}
+      {/* <Project /> */}
+      {/* <Footer /> */}
     </>
   );
 }

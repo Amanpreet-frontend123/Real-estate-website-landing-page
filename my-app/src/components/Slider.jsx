@@ -20,7 +20,7 @@ const SliderComponent = () => {
 
   return (
     <div className="container">
-      <div className="absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] w-[1064px] -mt-90 -ms-[100px] sm:ms-[80px]   md:px-16">
+      <div className="absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] max-w-[1064px] -mt-90 -ms-[100px] sm:ms-[80px]   md:px-16">
         <div className="">
           <Slider ref={sliderRef} {...settings}>
             {slider.data.map((item, index) => (
@@ -56,7 +56,7 @@ const SliderComponent = () => {
             {slider.desc}
           </p>
           <div className="sm:flex ms-[320px] mt-10 gap-5">
-            <div className="h-[57px] w-[57px] hover:bg-[#0A72AD]">
+            <div className="h-[57px] max-w-[57px] hover:bg-[#0A72AD]">
               <img
                 src={slider.arrowLeft}
                 alt="Prev"
@@ -64,7 +64,7 @@ const SliderComponent = () => {
                 className="absolute mt-5 ms-3 w-[25px] h-[25px]  cursor-pointer  "
               />
             </div>
-            <div className="h-[57px] w-[57px] hover:bg-[#0A72AD]">
+            <div className="h-[57px] max-w-[57px] hover:bg-[#0A72AD]">
               <img
                 src={slider.arrowRight}
                 alt="Next"

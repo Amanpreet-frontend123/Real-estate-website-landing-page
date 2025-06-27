@@ -19,7 +19,7 @@ const About = () => {
         <div className="flex gap-[150px] ">
           {aboutCardData.map((item) => (
             <div>
-              <div className="w-[94px] h-[94px] rounded-full bg-[#2387C04D]">
+              <div className="max-w-[94px] w-full h-[94px] rounded-full bg-[#2387C04D]">
                 <img src={about.circleImg} className="absolute m-4 h-[64px] w-[64px] "/>
                 <img
                   src={item.img}

@@ -17,7 +17,7 @@ const textStyle=titleSize==="art"?{className:"font-[600] text-[28px]"}:{classNam
     <span className='ms-[48px] mt-[38px] font-[600] text-[14px] max-w-10'>{date}</span>
     <h2 className='font-[600] text-[16px] ms-[1px] mt-[38px] max-w-80 ' style={textStyle}>{title}</h2>
     </div>
-    <p className='text-[#C4C4C4] ms-[48px] mt-[37px] mt-[25px] leading-[40px] w-[333px]'>{desc}</p>
+    <p className='text-[#C4C4C4] ms-[48px] mt-[37px] mt-[25px] leading-[40px] max-w-[333px]'>{desc}</p>
 </div>
 </>
   )
