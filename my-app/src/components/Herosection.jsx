@@ -6,7 +6,7 @@ import herosection from "../Json/Herosection";
 const Herosection = () => {
   return (
     <>
-      <div className="ps-[50px] sm:ps-[120px] column-reverse sm:flex justify-between bg-linear-to-r from-[#222222] to-[#474747] h-[850px] text-white ">
+      <div className="ps-[50px] w-full sm:ps-[120px] column-reverse sm:flex justify-between bg-linear-to-r from-[#222222] to-[#474747] h-[850px] text-white ">
         <div className="container">
           <div className=" font-[500] pt-[20px] sm:ms-[120px] sm:mt-[75px]">
             <h1 className="text-[32px] sm:text-[64px] ">{herosection.title1}</h1>
@@ -16,7 +16,7 @@ const Herosection = () => {
               {herosection.description}
             </p>
             <Button>{herosection.herosectionButton}</Button>
-            <div className="relative flex gap-[50px] max-w-50 max-w-[381px] h-[113px] leading-[25px] mt-[43px]">
+            <div className="relative flex gap-[30px] sm:gap-[50px] sm:max-w-50 sm:max-w-[381px] sm:h-[113px] leading-[25px] mt-[43px]">
               <h2 className="text-[36px] font-[700]">
                 {herosection.Number1}
                 <span className="text-[#2387C0] text-[36px] font-[700] ">
@@ -56,7 +56,7 @@ const Herosection = () => {
             alt=""
             className= "hidden lg:block sm:visible sm:ms-[90px] sm:w-[698px] sm:h-[987px] sm:-mt-[137px] scale-x-[-1]" 
           />
-          <div className="absolute mt-[60px] sm:-mt-[165px] ms-[400px] sm:ms-12 pt-12 p-5 sm:p-10   gap-10 h-[166px] max-w-[400px] sm:h-[166px]  sm:max-w-[745px] bg-gradient-to-r from-[#399FD8] via-[#0775B4] to-[#003756]  flex ">
+          <div className="absolute mt-[60px] sm:-mt-[165px] ms-[400px] sm:ms-12 pt-12 p-5 sm:p-10   gap-10 h-[166px] max-w-[380px] sm:h-[166px]  sm:max-w-[745px] bg-gradient-to-r from-[#399FD8] via-[#0775B4] to-[#003756]  flex ">
             <div>
               <h2 className="sm:text-[24px] font-[500px] sm:leading-[50px]">
                 {herosection.imgdivdecs1}
