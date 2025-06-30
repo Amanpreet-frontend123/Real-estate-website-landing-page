@@ -14,10 +14,10 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Herosection />
-      <Logo />
-      <Services />
+      {/* <Logo /> */}
+      {/* <Services /> */}
       {/* <About /> */}
       {/* <Team /> */}
       {/* <Story /> */}

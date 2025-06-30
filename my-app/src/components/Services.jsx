@@ -5,7 +5,7 @@ import Card from './Card';
 const Services = () => {
   return (
     <>
-    <div className="bg-[#F6F6F6CC] -mt-[100px] sm:mt-[0px] pt-[40px] sm:pt-[80px]">
+    <div className="bg-[#F6F6F6CC] -mt-[100px] pb-[50px] sm:pb-[10px] sm:mt-[0px] pt-[40px] sm:pt-[80px]">
       <div className="container">
       <div className=" w-full h-full sm:h-[926px] me-[130px] ">
         <div className="column-reverse sm:flex">
