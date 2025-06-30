@@ -6,13 +6,13 @@ const About = () => {
   return (
     <>
     <div className="container">
-      <div className=" ms-[190px] -mb:-[50px] sm:ms-[50px] mt-[123px] sm:mb-[174px]">
+      <div className=" ms-[30px] -mb:-[50px] sm:ms-[50px] mt-[30px] sm:mt-[123px] sm:mb-[174px]">
         <img src={about.RecImg} className="w-[90px] h-[9px] mb-[40px]"/>
-        <div className="flex mb-[65px]">
-          <h1 className=" text-[46px] font-[600] min-w-100 sm:max-w-100 ">
+        <div className="column-reverse ms-[px]  sm:flex mb-[65px]">
+          <h1 className=" text-[28px] -mt-[10px] sm:mt-[0px] sm:text-[46px] font-[600] max-w-50 sm:max-w-100 ">
             {about.titleAbout}
           </h1>
-          <p className="ms-[321px] min-w-120 sm:max-w-130 text-gray-400 leading-10 ">
+          <p className="ms-[] sm:ms-[321px] min-w-120 sm:max-w-130 text-gray-400 leading-10 ">
             {about.descriptionAbout}
           </p>
         </div>

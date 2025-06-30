@@ -20,13 +20,13 @@ const SliderComponent = () => {
 
   return (
     <div className="container">
-      <div className="absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] max-w-[1064px] -mt-90 -ms-[100px] sm:ms-[80px]   md:px-16">
+      <div className="absolute  columns-2 bg-gradient-to-r from-black to-zinc-900 text-white h-[566px] max-w-[1064px] -mt-90 -ms-[100px] sm:ms-[80px]   2xl:px-16">
         <div className="">
           <Slider ref={sliderRef} {...settings}>
             {slider.data.map((item, index) => (
               <div
                 key={index}
-                className="ms-[10px] sm:-ms-[50px] flex flex-col md:flex-row "
+                className="ms-[10px] sm:-ms-[50px] flex flex-col 2xl:flex-row "
               >
                 <img
                   src={item.image}
@@ -49,7 +49,7 @@ const SliderComponent = () => {
           </Slider>
         </div>
         <div className="">
-          <h2 className="text-[36px] font-[600] pt-20 ms-[] leading-[50px] max-w-120 md:text-4xl  mb-4">
+          <h2 className="text-[36px] font-[600] pt-20 ms-[] leading-[50px] max-w-120 2xl:text-4xl  mb-4">
             {slider.title}
           </h2>
           <p className="-ms-[10px] max-w-110 leading-[20px] sm:text-[#C4C4C4] text-[18px] font-[500px] mt-[44px] mb-8 text-justify leading-[50px] max-w-110">
